@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=`, initial-scale=1.0" />
+    <title>Model 1</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="/">
+        <img src="assets/logo.svg" alt="logo" />
+      </a>
+    </div>
+    <section class="main">
+      <nav class="nav-bar">
+        <div class="nav-item">
+          <a href="/model1" class="nav-link">Model 1</a>
+        </div>
+        <div class="nav-item">
+          <a href="/model2" class="nav-link">Model 2</a>
+        </div>
+        <div class="nav-item">
+          <a href="/model3" class="nav-link">Model 3</a>
+        </div>
+        <div class="nav-item">
+          <a href="/modelX" class="nav-link">Model x</a>
+        </div>
+      </nav>
+      <div class="view">
+        <div class="image-wrapper">
+          <div class="image">
+            <p>Input</p>
+            <div class="image-block">
+              <img src="assets//hill-5324149__340.jpg" alt="xxx" />
+            </div>
+          </div>
+          <div class="image">
+            <p>Output</p>
+            <div class="image-block">
+              <img src="assets//hill-5324149__340.jpg" alt="xxx" />
+            </div>
+          </div>
+        </div>
+        <div class="action">
+          <button>Save</button>
+          <button><a href="/">Back</a></button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <video id="video" width="640" height="480" autoplay></video>
+      <canvas id="canvas" width="640" height="480"></canvas>
+      <button id="snap">Snap Photo</button>
+
+      <image src="" id="aiimage" width="500" height="600" />
+
+      <image src="assets/Image_created_with_a_mobile_phone.png" id="preview" />
+      <canvas id="myCanvas" />
+    </section>
+
+    <script src="assets/jquery-2.2.4.min.js"></script>
+    <script type="module" src="assets/index.js"></script>
+    <script type="module" src="assets/model.js"></script>
+  </body>
+</html>
